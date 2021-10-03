@@ -1,4 +1,4 @@
-.gird {
+.grid {
   width: 100%;
   display: block;
 }
@@ -18,6 +18,7 @@
 .col {
   padding-left: 4px;
   padding-right: 4px;
+  padding-bottom: 20px;
 }
 
 .row.no-gutters .col {
@@ -160,6 +161,7 @@
   .wide .l-1,
   .wide .l-2,
   .wide .l-2-4,
+  .wide .l-12-8,
   .wide .l-3,
   .wide .l-4,
   .wide .l-5,
@@ -186,6 +188,10 @@
   .wide .l-2-4 {
     flex: 0 0 20%;
     max-width: 20%;
+  }
+  .wide .l-12-8 {
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
   }
 
   .wide .l-3 {
@@ -444,6 +450,7 @@
   .l-1,
   .l-2,
   .l-2-4,
+  .l-12-8,
   .l-3,
   .l-4,
   .l-5,
@@ -471,7 +478,10 @@
     flex: 0 0 20%;
     max-width: 20%;
   }
-
+  .l-12-8 {
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+  }
   .l-3 {
     flex: 0 0 25%;
     max-width: 25%;
