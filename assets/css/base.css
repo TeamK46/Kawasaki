@@ -1,0 +1,33 @@
+:root {
+  --while-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --btn-color: #b8100d;
+}
+
+* {
+  /* Kế thừa từ thẻ chứa nó */
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* Thì 1rem là 10px*/
+  line-height: 1.7rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__full-width {
+  width: 100%;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+}
